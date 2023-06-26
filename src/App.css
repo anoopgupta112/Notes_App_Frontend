@@ -1,0 +1,53 @@
+
+
+.card {
+  background-color: rgb(107, 107, 205);
+  padding: 2% 2% 0 2%;
+  margin: 0;
+  height: 80vh;
+  width: 35vw;
+justify-content: center;
+}
+
+.Holder {
+/* */
+ 
+  background-color: #fef8f8;
+
+
+}
+.landing{
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+  padding: 3% 3% 0 3%; 
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .Holder {
+    
+    display: flex;
+    flex-direction: column;
+    /* width: 100vw; */
+   
+
+  }
+ .landing{
+  display: flex;
+  flex-direction: column;
+  padding: 3%; 
+  margin-right: 3%;
+
+ }
+  .card {
+    background-color: rgb(107, 107, 205);
+    border-radius: 30px;
+    padding: 2%;
+    margin: 0;
+    height: 35vh;
+    width: 93vw;
+   
+  justify-content: center;
+  }
+  
+}

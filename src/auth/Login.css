@@ -1,0 +1,46 @@
+.auth-input{
+    margin: 1%;
+    width:60%;
+    height: 13%;
+    
+}
+.form-control{
+ 
+    padding: 11px 40px;
+
+}
+.authform{
+      margin-left: 14%;
+    margin-top: 4%;
+}
+
+
+@media only screen and (max-width: 600px) {
+.card{
+    display: none;
+}
+.form-control{
+ 
+    padding: 11px 40px;
+
+}
+form{
+    margin-left: 0%;
+    margin-top: 4%;
+}
+.auth-input{
+    margin-top: 15%;
+    width:90%;
+    height: 4%;
+}
+.signIn-button{
+    padding: 11px 40px;
+ 
+}
+.auth-button-div{
+    margin-top: 13%;
+       display: flex;
+justify-content: center;
+align-items: center;
+}
+}
